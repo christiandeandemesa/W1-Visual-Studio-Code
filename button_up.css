@@ -1,0 +1,24 @@
+.search {
+    color: lightseagreen;
+    background-color: white;
+    width: 110px;
+    height: 22px;
+    border: 1px solid lightseagreen;
+    border-radius: 10px;
+}
+.plus{
+    color: white;
+    background-color: lightseagreen;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+}
+.account{
+    color: white;
+    background-color: blue;
+    width: 140px;
+    height: 25px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+}
