@@ -1,0 +1,30 @@
+.nav{
+    display: flex;
+    background-color:rgb(58, 57, 57);
+    border: 1px solid white;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.nav-title{
+    color: white;
+    margin-left: 35px;
+}
+.nav-links{
+    display: flex;
+    color: rgb(58, 57, 57);
+    width: 40%;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+}
+.btn{
+    background-color: lightseagreen;
+    color: white;
+    border: 1px solid black;
+    box-shadow: 2px 2px black;
+}
