@@ -1,0 +1,168 @@
+* {
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+.header {
+    background-color:black;
+    height:78px;
+    width:auto;
+    display:flex;
+    align-items:center;
+}
+.top {
+    height:100%;
+    width:80%;
+    display:flex;
+    flex-direction:row;
+}
+.profile {
+    color:white;
+    display:flex;
+    align-items:center;
+    margin-left:130px;
+    gap:55px;
+}
+.button {
+    color:white;
+    background-color:lightseagreen;
+    height:40%;
+    width: 10%;
+}
+.body {
+    height:547px;
+    width:auto;
+    display:flex;
+}
+.left {
+    height:100%;
+    width:55%;
+}
+.about {
+    display:flex;
+    background-color:white;
+    height:60%;
+    width:65%;
+    align-self:flex-start;
+    flex-direction:column;
+    margin:10px 0px 0px 250px;
+}
+.about_header {
+    background-color:lightseagreen;
+    height:20%;
+    width:auto;
+}
+.my_icon {
+    height:70px;
+    width:70px;
+    border-radius:50%;
+    margin:15px 0px 0px 15px;
+}
+.about_body {
+    height:80%;
+    width:auto;
+    border: 1px solid gray;
+    border-top:none;
+}
+.down {
+    margin:22px 0px 0px 25px;
+}
+#map_marker {
+    height:20px;
+    width:20px;
+    margin-left:-5px;
+}
+#gear {
+    height:20px;
+    width:30px;
+    margin-left:-10px;
+}
+.education {
+    display:flex;
+    background-color:white;
+    height:35%;
+    width:65%;
+    align-self:flex-end;
+    flex-direction:column;
+    margin:10px 0px 0px 250px;
+}
+.education_header {
+    background-color:rgb(32, 30, 30);
+    color:white;
+    height:20%;
+    width:auto;
+}
+.education_right {
+    margin-left:25px;
+}
+.education_body {
+    height:80%;
+    width:auto;
+    border: 1px solid gray;
+}
+.gray {
+    color:gray;
+    margin:20px 0px 0px 25px;
+}
+.right {
+    height:100%;
+    width:45%;
+}
+.request {
+    display:flex;
+    background-color:white;
+    height:30%;
+    width:50%;
+    align-self:flex-end;
+    flex-direction:column;
+    margin:10px 0px 0px 10px;
+}
+.request_header {
+    background-color:rgb(32, 30, 30);
+    color:white;
+    height:20%;
+    width:auto;
+}
+.request_number {
+    height:20px;
+    width:20px;
+}
+.request_body {
+    height:80%;
+    width:auto;
+    border: 1px solid gray;
+}
+.other_icons {
+    height:20px;
+    width:20px;
+    border-radius:50%;
+}
+.friends {
+    display:flex;
+    background-color:white;
+    height:65%;
+    width:50%;
+    align-self:flex-end;
+    flex-direction:column;
+    margin:10px 0px 0px 10px;
+}
+.friends_header {
+    background-color:rgb(32, 30, 30);
+    color:white;
+    height:20%;
+    width:auto;
+}
+.friends_number {
+    height:20px;
+    width:20px;
+}
+.friends_body {
+    height:70%;
+    width:auto;
+    border: 1px solid gray;
+}
+.friends_footer {
+    height:10%;
+    width:auto;
+    border: 1px solid gray;
+}
